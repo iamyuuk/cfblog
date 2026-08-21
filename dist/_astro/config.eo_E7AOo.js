@@ -1,0 +1,1 @@
+var e={title:`YuuK`,subTitle:`Blog`,favicon:`/favicon/favicon.ico`,pageSize:6,toc:{enable:!0,depth:3},blogNavi:{enable:!0},comments:{enable:!1,platform:`default`,backendUrl:`https://api-momo.motues.top`},theme:{AOS:!0,LQIP:!0,PhotoSwipe:!0,postCard:{imageMode:`top`}}};export{e as t};
