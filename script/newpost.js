@@ -37,14 +37,17 @@ try {
     process.exit(1);
 }
 
-// 默认的 Markdown 内容
+// 用本地日期：toISOString() 是 UTC，东八区凌晨会算成前一天
+const today = new Date().toLocaleDateString('sv-SE');
+
+// 默认的 Markdown 内容（字段名需与 src/content.config.ts 的 schema 一致）
 const defaultContent = `---
 title: new post
-date: ${new Date().toISOString().split('T')[0]}
+pubDate: '${today}'
 description: Some description here
 image: ""
 draft: false
-slug: ${folderPath}
+slugId: ${folderPath}
 ---
 
 ## Title
