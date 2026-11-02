@@ -7,7 +7,7 @@ import type {
 import type { FriendLink } from "./types/friend"
 
 export const siteConfig: SiteConfig = {
-    title: "Momo",
+    title: "YuuK",
     subTitle: "Blog",
 
     favicon: "/favicon/favicon.ico", // Path of the favicon, relative to the /public directory
@@ -21,7 +21,7 @@ export const siteConfig: SiteConfig = {
         enable: true // Whether to enable blog navigation in the blog footer
     },
     comments: {
-        enable: true, // Whether to enable comments
+        enable: false, // Whether to enable comments
         platform: "default", // Comment platform, set "default" to use Momo-backend, also supports "twikoo"
         backendUrl: "https://api-momo.motues.top" // Backend URL for comments
     },
@@ -37,10 +37,10 @@ export const siteConfig: SiteConfig = {
 
 export const profileConfig: ProfileConfig = {
     avatar: "assets/Motues.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    name: "Motues",
-    description: "Life is colorful!",
-    indexPage: "https://www.motues.top",
-    startYear: 2024,
+    name: "YuuK",
+    description: "I LOVE U",
+    indexPage: "https://www.yuuk.top",
+    startYear: 2026,
 }
 
 export const licenseConfig: LicenseConfig = {
@@ -50,6 +50,12 @@ export const licenseConfig: LicenseConfig = {
 };
 
 export const friendLinkConfig: FriendLink[] = [
+    {
+        name: 'Noctiro',
+        avatar: 'https://noctiro.moe/_next/image?url=%2Favatar.webp&w=1080&q=75',
+        url: 'https://www.noctiro.moe',
+        description: 'My good friend!'
+    },
     {
         name: 'Motues',
         avatar: 'https://www.motues.top/avatar.jpg',
